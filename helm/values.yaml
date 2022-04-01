@@ -4,7 +4,7 @@ image:
   pullPolicy: IfNotPresent
 ingress:
   enabled: true
-  host: devops-toolkit.127.0.0.1.com
+  host: devops-toolkit.127.0.0.1.nip.io
 resources:
   limits:
     cpu: 100m
