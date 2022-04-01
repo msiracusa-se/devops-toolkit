@@ -4,7 +4,7 @@ image:
   pullPolicy: IfNotPresent
 ingress:
   enabled: true
-  host: devopstoolkitseries.com
+  host: devops-toolkit.127.0.0.1.com
 resources:
   limits:
     cpu: 100m
@@ -19,7 +19,7 @@ readinessProbe:
 hpa: false
 knativeDeploy: false
 istio:
-  enabled: false
+  enabled: true
 rollout:
   enabled: false
   steps:
