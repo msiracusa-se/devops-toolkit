@@ -1,5 +1,0 @@
-stages:
-  - name: "production"
-    deployment_strategy: "blue_green_service"
-    test_strategy: "performance"
-
